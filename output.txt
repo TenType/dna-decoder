@@ -1,0 +1,49 @@
+#####################################################
+# AUTO GENERATED OUTPUT FILE FOR 'DNA DECODER'
+# Created by TenType
+
+# Output for default inputs to make your life easier:
+
+# === 1 of 7 ===
+# DNA Sequence: cac-tac-acc-tgt-cgt-tat-gtg-ccc-ttt-gtt-tga-tac-aac-aca
+# RNA Sequence: gug-aug-ugg-aca-gca-aua-cac-ggg-aaa-caa-acu-aug-uug-ugu
+# Hidden Message: YOUTALKINGTOME
+# Amino Acid: Val-Met-Trp-Thr-Ala-Ile-His-Gly-Lys-Gln-Thr-Met-Leu-Cys
+#
+# === 2 of 7 ===
+# DNA Sequence: aac-cgc-gtg-aca-ccg-tga-aga-acc-ttc-tga-tac-gga-cac-tgg-ccc-gac-acg-agg
+# RNA Sequence: uug-gcg-cac-ugu-ggc-acu-ucu-ugg-aag-acu-aug-ccu-gug-acc-ggg-cug-ugc-ucc
+# Hidden Message: MAKEITSUNTORYTIMES
+# Amino Acid: Leu-Ala-His-Cys-Gly-Thr-Ser-Trp-Lys-Thr-Met-Pro-Val-Thr-Gly-Leu-Cys-Ser
+#
+# === 3 of 7 ===
+# DNA Sequence: gat-acg-aca-tgg-aat-acg-cca-ttt-aat-tac-ttc-tga-cgc-acc-gtg
+# RNA Sequence: cua-ugc-ugu-acc-uua-ugc-ggu-aaa-uua-aug-aag-acu-gcg-ugg-cac
+# Hidden Message: MEETMEINMONTAUK
+# Amino Acid: Leu-Cys-Cys-Thr-Leu-Cys-Gly-Lys-Leu-Met-Lys-Thr-Ala-Trp-His
+#
+# === 4 of 7 ===
+# DNA Sequence: aaa-tag-cgc-agt-tgg-ccg-gct-agg
+# RNA Sequence: uuu-auc-gcg-uca-acc-ggc-cga-ucc
+# Hidden Message: PLASTICS
+# Amino Acid: Phe-Ile-Ala-Ser-Thr-Gly-Arg-Ser
+#
+# === 5 of 7 ===
+# DNA Sequence: cac-tac-acc-ggg-acg-gtt-tac-ttt-ttc-cga-ttt-aca-aca-ttg-cgc-ctg-ccc-gtt-gtt-aca-ggc-ctg-tac-cgt-tgc
+# RNA Sequence: gug-aug-ugg-ccc-ugc-caa-aug-aaa-aag-gcu-aaa-ugu-ugu-aac-gcg-gac-ggg-caa-caa-ugu-ccg-gac-aug-gca-acg
+# Hidden Message: YOUREGONNANEEDABIGGERBOAT
+# Amino Acid: Val-Met-Trp-Pro-Cys-Gln-Met-Lys-Lys-Ala-Lys-Cys-Cys-Asn-Ala-Asp-Gly-Gln-Gln-Cys-Pro-Asp-Met-Ala-Thr
+#
+# === 6 of 7 ===
+# DNA Sequence: gtc-gga-aca-cgc-tgc-agt-gcc-tac-tgg-tgc
+# RNA Sequence: cag-ccu-ugu-gcg-acg-uca-cgg-aug-acc-acg
+# Hidden Message: GREATSCOTT
+# Amino Acid: Gln-Pro-Cys-Ala-Thr-Ser-Arg-Met-Thr-Thr
+#
+# === 7 of 7 ===
+# DNA Sequence: cgt-tgg-tgc-ccg-gcg-cgt-cgc-tgt-tga-ccc-gct-cga
+# RNA Sequence: gca-acc-acg-ggc-cgc-gca-gcg-aca-acu-ggg-cga-gcu
+# Hidden Message: ATTICAATTICA
+# Amino Acid: Ala-Thr-Thr-Gly-Arg-Ala-Ala-Thr-Thr-Gly-Arg-Ala
+
+#####################################################
