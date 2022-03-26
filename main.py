@@ -2,9 +2,9 @@ from data import bases, decoderKey, acids
 from inputs import inputs
 
 # Swap pairs
-def swap(letter: str):
+def swap(letter: str, rna: bool):
 	value = bases[letter]
-	if value == 't':
+	if rna is True and value == 't':
 		return 'u'
 	return value
 
@@ -20,10 +20,17 @@ def search(code: str):
 	# DNA SEQUENCE
 	log.append('-'.join(splitThree(code)))
 
+	# tRNA SEQUENCE
+	swapped = ''
+	for i in code:
+		swapped += swap(i, False)
+
+	log.append('-'.join(splitThree(swapped)))
+
 	# RNA SEQUENCE
 	swapped = ''
 	for i in code:
-		swapped += swap(i)
+		swapped += swap(i, True)
 
 	log.append('-'.join(splitThree(swapped)))
 
@@ -44,9 +51,10 @@ def search(code: str):
 	print(
 		f'''\
 DNA Sequence: {log[0]}
-RNA Sequence: {log[1]}
-Amino Acid: {log[3]}
-Hidden Message: {log[2]}
+tRNA Sequence: {log[1]}
+RNA Sequence: {log[2]}
+Amino Acid: {log[4]}
+Hidden Message: {log[3]}
 		'''
 	)
 

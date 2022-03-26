@@ -10,6 +10,7 @@ Don't worry! If you're just looking for the default answers for the problems alr
 | Stage              | Code                              |
 | ------------------ | --------------------------------- |
 | DNA Sequence       | `aaa-tag-cgc-agt-tgg-ccg-gct-agg` |
+| tRNA Sequence      | `ttt-atc-gcg-tca-acc-ggc-cga-tcc` |
 | RNA Sequence       | `uuu-auc-gcg-uca-acc-ggc-cga-ucc` |
 | Amino Acid         | `Phe-Ile-Ala-Ser-Thr-Gly-Arg-Ser` |
 | **Hidden Message** | `PLASTICS`                        |
