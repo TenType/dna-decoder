@@ -1,3 +1,10 @@
+bases = {
+	'g': 'c',
+	'c': 'g',
+	't': 'a',
+	'a': 't',
+}
+
 decoderKey = {
 	# ROW 1
 	'uuu': 'P',

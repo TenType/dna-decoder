@@ -1,52 +1,56 @@
-from data import decoderKey, acids
+from data import bases, decoderKey, acids
 from inputs import inputs
 
 # Swap pairs
-def swap(letter):
-	if letter == 'g': return 'c'
-	if letter == 'c': return 'g'
-	if letter == 't': return 'a'
-	if letter == 'a': return 'u'
-	print(f'Error: {letter} is missing from swap function')
+def swap(letter: str):
+	value = bases[letter]
+	if value == 't':
+		return 'u'
+	return value
 
 # Split string into array of strings for every 3 letters
-def splitThree(str):
+def splitThree(str: str):
 	n = 3
 	arr = [str[i:i+n] for i in range(0, len(str), n)]
 	return arr
  
-def search(code):
+def search(code: str):
+	log = []
+
 	# DNA SEQUENCE
-	dna = '-'.join(splitThree(code))
-	print(f'DNA Sequence: {dna}')
+	log.append('-'.join(splitThree(code)))
 
 	# RNA SEQUENCE
 	swapped = ''
 	for i in code:
 		swapped += swap(i)
 
-	rna = '-'.join(splitThree(swapped))
-	print(f'RNA Sequence: {rna}')
+	log.append('-'.join(splitThree(swapped)))
 
 	# HIDDEN MESSAGE
 	output = ''
 	for i in splitThree(swapped):
-		if not decoderKey.get(i): print(f'Error: {i} is missing from map')
-		output += decoderKey.get(i)
+		output += decoderKey[i]
 
-	print(f'Hidden Message: {output}')
+	log.append(output)
 
 	# AMINO ACID
 	aminoAcids = []
 	for i in list(output):
-		if not acids.get(i): print(f'Error: {i} is missing from acids')
-		aminoAcids.append(acids.get(i))
+		aminoAcids.append(acids[i])
 
-	aminoAcids = '-'.join(aminoAcids)
-	print(f'Amino Acid: {aminoAcids}')
+	log.append('-'.join(aminoAcids))
+
+	print(
+		f'''\
+DNA Sequence: {log[0]}
+RNA Sequence: {log[1]}
+Amino Acid: {log[3]}
+Hidden Message: {log[2]}
+		'''
+	)
 
 # Execution
 for i, item in enumerate(inputs):
 	print(f'=== {i+1} of {len(inputs)} ===')
 	search(item)
-	print('\n')
